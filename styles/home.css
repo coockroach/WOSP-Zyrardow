@@ -1,0 +1,869 @@
+a {
+    text-decoration:            none;
+}
+
+body {
+    margin:                     0;
+    padding:                    0;
+    background:                 #ffffff;
+}
+
+@font-face {
+    font-family:                BenchNine-Regular;
+    src:                        url('./fonts/BenchNine/IE/BenchNine-Regular.eot');/* TTF file for CSS3 browsers */
+    src:                        local(BenchNine-Regular),
+                                url('./fonts/BenchNine/BenchNine-Regular.ttf') format("truetype"); /* EOT file for IE */
+}
+
+/*facebook i allegro*/
+.icons {
+
+    margin:                     0 auto;
+    padding-left:               930px;
+    padding-top:                10px;
+    padding-bottom:             0px;
+    position:                   relative;
+    display:                    inline-block;
+
+}
+
+.icons:hover {
+    cursor:                     pointer;
+}
+/*główne*/
+#main {
+    width:                      980px;
+    text-align:                 center;
+    position:                   relative;
+    margin:                     5px auto;
+    padding-top:                5px;
+}
+
+#top {
+    height:                     350px;
+    border:                     1px solid black;
+    box-shadow:                 2px 2px 2px;
+    margin-top:                 5px;
+}
+
+#top {
+    background:                 url("photos/metal4.jpg");
+
+}
+
+#wosp {
+    position:                   absolute;
+    margin-left:               -415px;
+
+}
+
+#zyrardow {
+    position:                   absolute;
+    margin-top:                 50px;
+    margin-left:                120px;
+}
+
+
+#heart {
+    float:                      left;
+    margin-top:                 -30px;
+    margin-left:                -1px;
+    position:                   relative;
+}
+/*Baner*/
+#header img {
+    position:                   relative;
+    box-shadow:                 2px 2px 2px;
+}
+
+/*Menu*/
+#menu {
+    margin-top:                 -58px;
+    font-family:                BenchNine-Regular, Arial;
+    font-size:                  20px;
+    font-weight:                bold;
+}
+
+#kontakt {
+    text-transform:             uppercase;
+    font-weight:                bolder;
+}
+
+/*Middle*/
+#middle {
+    width:                      980px;
+    overflow:                   hidden;
+    background-color:           whitesmoke;
+}
+
+#aktualnosci {
+    width:                      980px;
+    margin-top:                 10px;
+    padding-left:               10px;
+    float:                      left;
+    font-family:                BenchNine-Regular, arial;
+    font-size:                  35px;
+    font-weight:                bold;
+    border-bottom:              1px solid black;
+    box-shadow:                 1px 1px;
+    width:                      100%;
+    text-align:                 left;
+}
+
+article {
+    width:                      980px;
+    margin:                     10px 10px;
+    padding:                    10px 10px;
+    float:                      left;
+    text-align:                 left;
+    border-bottom:              1px solid black;
+    box-shadow:                 1px 1px;
+    font-family:                BenchNine-Regular;
+    font-size:                  20px;
+    line-height:                25px;
+}
+
+h2 {
+    padding-left:               30px;
+    font-weight:                bold;
+    font-size:                  23px;
+    cursor:                     pointer;
+    font-family:                BenchNine-Regular;
+    font-size:                  23px;
+    background:                 url("icons/arrowSprite.png") 0 0 no-repeat;
+}
+
+h2:hover {
+    text-decoration:            underline;
+    cursor:                     pointer;
+    background-position:        0 -32px;
+}
+
+h2.open {
+    background-position:        0 -32px;
+}
+
+h2.open:hover {
+    background-position:        0 -32px;
+}
+
+h3 {
+    font-weight:                bold;
+    font-size:                  23px;
+}
+
+
+p {
+    margin:                     10px;
+    padding:                    10px;
+}
+
+ul {
+    list-style:                 disc;
+    margin:                     10px;
+    padding-left:               30px;
+    line-height:                20px;
+}
+
+li {
+    list-style:                 disc;
+    line-height:                20px;
+}
+
+ul li ul {
+    line-height:                20px;
+}
+
+ul li ul li {
+    line-height:                20px;
+}
+
+ol li {
+    list-style:                 decimal;
+    line-height:                25px;
+    margin:                     5px;
+    padding:                    10px;
+}
+
+#plakat {
+    float:                      right;
+    margin-top:                 -20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#wolontariusz_w_sniegu {
+    float:                      right;
+    margin-top:                 -20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#spotkanie_organizacyjne {
+    float:                      right;
+    margin-top:                 -20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#pamiatkowe_zdjecie {
+    float:                      right;
+    margin-top:                 -20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#poleje_sie_krew {
+    float:                      right;
+    margin-top:                 -20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#zajecia_zumba {
+    float:                      right;
+    margin-top:                 -20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#final {
+    float:                      right;
+    margin-top:                 -20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#po_raz_kolejny_z_wosp {
+    float:                      right;
+    margin-top:                 -20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#pieniadze {
+    float:                      right;
+    margin-top:                 20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+/*Partnerzy*/
+.sponsors {
+    width:                      980px;
+    height:                     200px;
+    border:                     1px solid black;
+    box-shadow:                 1px 1px 1px;
+    background-color:           white;
+    display:                    inline-block;
+    overflow:                   hidden;
+}
+
+#organizatorzy {
+    width:                      190px;
+    height:                     200px;
+    border-right:               1px dotted #A8A8A8;
+    clear:                      none;
+    float:                      left;
+}
+
+#organizatorzy a {
+    margin-top:                 15px;
+    margin-left:                10px;
+    margin-right:               5px;
+    padding-top:                0px;
+    float:                      left;
+
+}
+
+#organizatorzy h3 {
+    text-align:                 left;
+    padding-left:               5px;
+    font-family:                BenchNine-Regular;
+    font-weight:                bold;
+    font-size:                  15px;
+    margin:                     5px;
+    padding-top:                5px;
+}
+
+#sponsorzy {
+    width:                      90px;
+    height:                     200px;
+    margin-left:                5px;
+    float:                      left;
+}
+
+#sponsorzy a {
+    margin-top:                 15px;
+    margin-left:                10px;
+    padding-top:                5px;
+    float:                      left;
+}
+
+#sponsorzy h3 {
+    text-align:                 left;
+    padding-left:               5px;
+    font-family:                BenchNine-Regular;
+    font-weight:                bold;
+    font-size:                  16px;
+    margin:                     5px;
+    padding-top:                5px;
+}
+
+#partnerzy {
+    width:                      470px;
+    height:                     200px;
+    margin-left:                5px;
+    float:                      left;
+}
+
+#partnerzy a {
+    margin-top:                 5px;
+    margin-left:                5px;
+    padding-top:                10px;
+    padding-bottom:             0px;
+    float:                      left;
+}
+
+#partnerzy h3 {
+    text-align:                 left;
+    padding-left:               5px;
+    font-family:                BenchNine-Regular;
+    font-weight:                bold;
+    font-size:                  15px;
+    margin:                     5px;
+    padding-top:                5px;
+}
+
+#patroni {
+    width:                      200px;
+    height:                     200px;
+    margin-left:                10px;
+    float:                      right;
+}
+
+#patroni a {
+    margin-top:                 5px;
+    margin-left:                5px;
+    padding-top:                10px;
+    padding-bottom:             0px;
+    float:                      left;
+}
+
+#patroni h3 {
+    text-align:                 left;
+    padding-left:               -10px;
+    font-family:                BenchNine-Regular;
+    font-weight:                bold;
+    font-size:                  15px;
+    margin:                     5px;
+    padding-top:                5px;
+    padding-right:              100px;
+}
+
+/*Bottom*/
+#bottom {
+
+    width:                      979px;
+    height:                     160px;
+    border:                     1px solid black;
+    color:                      #ffffff;
+    background-image:           url("photos/metal5.jpg");
+    display:                    inline-block;
+    overflow:                   hidden;
+}
+
+.box1 {
+    width:                      327px;
+    height:                     160px;
+    border:                     1px solid black;
+    margin:                     0 auto;
+    padding-top:                25px;
+    float:                      left;
+    font-family:                BenchNine-Regular;
+    font-size:                  16px;
+    line-height:                2px;
+
+}
+
+.box1 h4 {
+    font-weight:                bold;
+    font-size:                  19px;
+    font-family:                BenchNine-Regular;
+    padding-bottom:             5px;
+}
+
+.box2 {
+    width:                      320px;
+    height:                     160px;
+    border:                     1px solid black;
+    margin:                     0 auto;
+    padding-top:                20px;
+    float:                      left;
+    font-family:                BenchNine-Regular;
+    font-size:                  16px;
+    line-height:                5px;
+}
+
+.box2 h4 {
+    font-weight:                bold;
+    font-size:                  19px;
+    font-family:                BenchNine-Regular;
+    padding-bottom:             5px;
+}
+
+.box2 a {
+    color:                      #ffffff;
+    line-height:                30px;
+}
+
+.box2 a:visited
+.box2 a:active
+.box2 a:hover {
+    color:                      #ffffff;
+}
+
+.box2 a:hover {
+    text-decoration:            underline;
+}
+
+.box3 {
+    width:                      320px;
+    height:                     160px;
+    border:                     1px solid black;
+    margin:                     0 auto;
+    padding-top:                10px;
+    float:                      left;
+    font-family:                BenchNine-Regular;
+    font-size:                  16px;
+    line-height:                20px;
+}
+
+.box3 h4 {
+    font-weight:                bold;
+    font-size:                  19px;
+    font-family:                BenchNine-Regular;
+    border-bottom:              5px;
+}
+
+.box3 a {
+    padding-top:                -10px;
+    color:                      #ffffff;
+    line-height:                17px;
+}
+
+.box3 a:hover {
+    text-decoration:            underline;
+}
+
+footer {
+    border:                     1px solid black;
+    margin:                     0 auto;
+    width:                      980px;
+    text-align:                 center;
+    background-image:           url("photos/metal5.jpg");
+    height:                     30px;
+}
+
+footer p {
+    font-family:                BenchNine-Regular;
+    color:                      whitesmoke;
+    margin-top:                 5px;
+    line-height:                15px;
+}
+
+/*Forma*/
+#signup {
+    width:                      940px;
+    height:                     730px;
+    margin:                     100px auto 50px auto;
+    padding:                    20px;
+    position:                   relative;
+    background:                 #fff url('photos/images.jpg');
+    border:                     1px solid #ccc;
+    border-radius:              3px;
+    -moz-border-radius:         3px;
+    -webkit-border-radius:      3px;
+}
+
+#signup::before,
+#signup::after {
+    content:                    "";
+    position:                   absolute;
+    bottom:                     -3px;
+    left:                       2px;
+    right:                      2px;
+    top:                        0;
+    z-index:                    -1;
+    background:                 #fff;
+    border:                     1px solid #ccc;
+}
+
+#signup::after {
+    left:                       4px;
+    right:                      4px;
+    bottom:                     -5px;
+    z-index:                    -2;
+    box-shadow:                 0 8px 8px -5px rgba(0,0,0,.3);
+}
+
+#signup h1 {
+    position:                   relative;
+    font:                       italic 1.5em/3.0em BenchNine-Regular, Helvetica;
+    color:                      #464646;
+    text-align:                 center;
+    text-transform:             uppercase;
+    margin:                     0 0 20px;
+}
+
+#signup h1::before,
+#signup h1::after{
+    content:                    '';
+    position:                   absolute;
+    border:                     1px solid rgba(0,0,0,.15);
+    top:                        10px;
+    bottom:                     10px;
+    left:                       0;
+    right:                      0;
+}
+
+#signup h1::after{
+    top:                        0;
+    bottom:                     0;
+    left:                       10px;
+    right:                      10px;
+}
+
+::-webkit-input-placeholder {
+    color:                      #464646;
+}
+
+:-moz-placeholder {
+    color:                      #464646;
+}
+
+.placeholder{
+    color:                      #464646; /* polyfill */
+}
+
+#signup input{
+    margin:                     5px 0;
+    padding:                    15px;
+    width:                      60%;
+    *width:                     518px; /* IE7 and below */
+    box-sizing:                 border-box;
+    border:                     1px solid #ccc;
+    border-radius:              3px;
+    -moz-border-radius:         3px;
+    -webkit-border-radius:      3px;
+    font-family:                benchnine-regular;
+    font-size:                  18px;
+}
+
+#signup input:focus{
+    outline:                    0;
+    border-color:               #aaa;
+    box-shadow:                 0 2px 1px rgba(0, 0, 0, .3) inset;
+}
+
+#tresc {
+    margin:                     5px 0;
+    padding:                    15px;
+    width:                      60%;
+    *width:                     518px; /* IE7 and below */
+    height:                     200px;
+    box-sizing:                 border-box;
+    border:                     1px solid #ccc;
+    border-radius:              3px;
+    -moz-border-radius:         3px;
+    -webkit-border-radius:      3px;
+    font-family:                benchnine-regular;
+    font-size:                  18px;
+    color:                      #464646;
+}
+
+#tresc:focus{
+    outline:                    0;
+    border-color:               #aaa;
+    box-shadow:                 0 2px 1px rgba(0, 0, 0, .3) inset;
+}
+
+#signup button{
+    margin:                     20px 0 0 0;
+    padding:                    15px 8px;
+    width:                      60%;
+    cursor:                     pointer;
+    border:                     1px solid #2493FF;
+    overflow:                   visible;
+    display:                    inline-block;
+    color:                      #fff;
+    font:                       bold 1.8em BenchNine-Regular, helvetica;
+    text-shadow:                0 -1px 0 rgba(0,0,0,.4);
+    background-color:           #2493ff;
+    background-image:           linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0));
+    transition:                 background-color .2s ease-out;
+    border-radius:              3px;
+    -moz-border-radius:         3px;
+    -webkit-border-radius:      3px;
+    box-shadow:                 0 2px 1px rgba(0, 0, 0, .3), 0 1px 0 rgba(255, 255, 255, .5) inset;
+}
+
+#signup button:hover{
+    background-color:           #7cbfff;
+    border-color:               #7cbfff;
+}
+
+#signup button:active{
+    position:                   relative;
+    top:                        3px;
+    text-shadow:                none;
+    box-shadow:                 0 1px 0 rgba(255, 255, 255, .3) inset;
+}
+
+/*na_co_gramy*/
+#na_co_gramy {
+    width:                      980px;
+    margin-top:                 10px;
+    padding-left:               10px;
+    float:                      left;
+    font-family:                BenchNine-Regular;
+    font-size:                  35px;
+    font-weight:                bold;
+    border-bottom:              1px solid black;
+    box-shadow:                 1px 1px;
+    width:                      100%;
+    text-align:                 left;
+}
+
+article h3 {
+    margin:                     0 auto;
+}
+
+/*ile_zebralismy*/
+#ile_zebralismy {
+    width:                      980px;
+    margin-top:                 10px;
+    padding-left:               10px;
+    float:                      left;
+    font-family:                BenchNine-Regular;
+    font-size:                  35px;
+    font-weight:                bold;
+    border-bottom:              1px solid black;
+    box-shadow:                 1px 1px;
+    width:                      100%;
+    text-align:                 left;
+}
+
+/*rozklad_jazdy*/
+#rozklad_jazdy {
+    width:                      980px;
+    margin-top:                 10px;
+    padding-left:               10px;
+    float:                      left;
+    font-family:                BenchNine-Regular;
+    font-size:                  35px;
+    font-weight:                bold;
+    border-bottom:              1px solid black;
+    box-shadow:                 1px 1px;
+    width:                      100%;
+    text-align:                 left;
+}
+
+#rozklad_jazdy_2013 {
+    float:                      right;
+    margin-top:                 -10px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+iframe.video {
+    text-align:                 center;
+    margin:                     10px 10px;
+    padding:                    10px 200px;
+}
+
+iframe.fb_ltr {
+    margin-top:                 -5px;
+}
+
+/*sztab*/
+#sztab {
+    width:                      980px;
+    margin-top:                 10px;
+    padding-left:               10px;
+    float:                      left;
+    font-family:                BenchNine-Regular;
+    font-size:                  35px;
+    font-weight:                bold;
+    border-bottom:              1px solid black;
+    box-shadow:                 1px 1px;
+    width:                      100%;
+    text-align:                 left;
+}
+
+#logo_ww {
+    float:                      right;
+    margin-top:                 -20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+h5 {
+    font-weight:                bold;
+    padding-top:                5px;
+    padding-bottom:             5px;
+}
+
+/*licytacje*/
+#licytacje {
+    width:                      980px;
+    margin-top:                 10px;
+    padding-left:               10px;
+    float:                      left;
+    font-family:                BenchNine-Regular;
+    font-size:                  35px;
+    font-weight:                bold;
+    border-bottom:              1px solid black;
+    box-shadow:                 1px 1px;
+    width:                      100%;
+    text-align:                 left;
+}
+
+article p a:active
+article p a:visited
+article p a:hover {
+    color:                      black;
+}
+
+/*wolontariusze*/
+#wolontariusze {
+    width:                      980px;
+    margin-top:                 10px;
+    padding-left:               10px;
+    float:                      left;
+    font-family:                BenchNine-Regular;
+    font-size:                  35px;
+    font-weight:                bold;
+    border-bottom:              1px solid black;
+    box-shadow:                 1px 1px;
+    width:                      100%;
+    text-align:                 left;
+}
+
+#wolontariusz {
+    float:                      right;
+    margin-top:                 -250px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#id {
+    float:                      right;
+    margin-top:                 -280px;
+    margin-right:               40px;
+    margin-left:                650px;
+}
+
+#puszka {
+    float:                      right;
+    margin-top:                 -120px;
+    margin-right:               80px;
+    margin-left:                650px;
+}
+
+/*galeria*/
+#galeria {
+    width:                      980px;
+    margin-top:                 10px;
+    padding-left:               10px;
+    float:                      left;
+    font-family:                BenchNine-Regular;
+    font-size:                  35px;
+    font-weight:                bold;
+    border-bottom:              1px solid black;
+    box-shadow:                 1px 1px;
+    width:                      100%;
+    text-align:                 left;
+}
+
+#galeria_2013 {
+    text-align:                 center;
+}
+
+/*nabor*/
+#nabor {
+    width:                      980px;
+    margin-top:                 10px;
+    padding-left:               10px;
+    float:                      left;
+    font-family:                BenchNine-Regular;
+    font-size:                  35px;
+    font-weight:                bold;
+    border-bottom:              1px solid black;
+    box-shadow:                 1px 1px;
+    width:                      100%;
+    text-align:                 left;
+}
+
+/*regulamin_wolontariusza*/
+#regulamin_wolontariusza {
+    width:                      980px;
+    margin-top:                 10px;
+    padding-left:               10px;
+    float:                      left;
+    font-family:                BenchNine-Regular;
+    font-size:                  35px;
+    font-weight:                bold;
+    border-bottom:              1px solid black;
+    box-shadow:                 1px 1px;
+    width:                      100%;
+    text-align:                 left;
+}
