@@ -56,17 +56,10 @@ body {
 
 #wosp {
     position:                   absolute;
-    margin-left:               -215px;
-    margin-top:                 -10px;
+    margin-left:               -410px;
+    margin-top:                 15px;
 
 }
-
-#zyrardow {
-    position:                   absolute;
-    margin-top:                 50px;
-    margin-left:                -288px;
-}
-
 
 #heart {
     float:                      left;
@@ -156,6 +149,10 @@ h3 {
     font-size:                  23px;
 }
 
+h4 {
+    font-weight: bold;
+}
+
 
 p {
     margin:                     10px;
@@ -187,6 +184,127 @@ ol li {
     line-height:                25px;
     margin:                     5px;
     padding:                    10px;
+}
+
+#zaproszenie_upominkowe {
+    float:                      right;
+    margin-top:                 150px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#paleczka_perkusyjna {
+    float:                      right;
+    margin-top:                 0px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#plyta_cd_gooral_i_mazowsze {
+    float:                      right;
+    margin-top:                 0px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#koszulka_donotd {
+    float:                      right;
+    margin-top:                 0px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#fotoboard {
+    float:                      right;
+    margin-top:                 0px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#gadzety_od_zespolu_hope {
+    float:                      right;
+    margin-top:                 10px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               -170px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#piotr_bukartyk {
+    float:                      right;
+    margin-top:                 10px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#dziekujemy_ze_byliscie_z_nami {
+    float:                      right;
+    margin-top:                 -20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#sztab_w_pracy {
+    float:                      right;
+    margin-top:                 -20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#najlepsi_wolontariusze {
+    float:                      right;
+    margin-top:                 -20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
+}
+
+#konkurs_dla_wolontariuszy {
+    float:                      right;
+    margin-top:                 -20px;
+    margin-bottom:              10px;
+    margin-left:                10px;
+    margin-right:               20px;
+    padding-top:                5px;
+    padding-left:               10px;
+    padding-right:              20px;
 }
 
 #plakat {
@@ -631,7 +749,7 @@ footer p {
     box-shadow:                 0 2px 1px rgba(0, 0, 0, .3) inset;
 }
 
-#signup button{
+#signup input[type=submit]{
     margin:                     20px 0 0 0;
     padding:                    15px 8px;
     width:                      60%;

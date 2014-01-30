@@ -36,7 +36,6 @@
         <div id="top">
             <a id="heart" href="index.html"><img src="styles/icons/logo.png"></a>
             <a id="wosp"><img src="styles/photos/NAPIS.png"></a>
-            <a id="zyrardow"><img src="styles/photos/NAPIS3.png"></a>
 
             <div id="header">
                 <img src="styles/photos/baner.jpg">
@@ -64,14 +63,14 @@
             </ul>
         </div>
 
-    <form action="MAILTO:sztab.zyrardow@op.pl" method="post" enctype="text/plain" id="signup">
+    <form action="/mailSender.php" method="POST" id="signup">
         <h1>Skontakuj się z nami</h1>
-        <input type="email" placeholder="twój adres email" required="">
-        <input type="tel" placeholder="nr. telefonu" required="">
-        <input type="text" placeholder="imię i nazwisko" required="">
-        <input type="text" placeholder="temat" required="">
-        <textarea id="tresc" name="treść" rows="20" cols="50" required="" placeholder="treść"></textarea>
-        <button type="submit">Wyślij</button>
+        <input type="text" name="email" placeholder="twój adres email" required="">
+        <input type="text" name="phone" placeholder="nr. telefonu" required="">
+        <input type="text" name="full_name" placeholder="imię i nazwisko" required="">
+        <input type="text" name="topic" placeholder="temat" required="">
+        <textarea id="tresc" name="body" rows="20" cols="50" required="" placeholder="treść"></textarea>
+        <input type="submit" value="Wyślij">
     </form>
 
 
@@ -191,7 +190,7 @@
             </div>
 
             <div class="box3">
-                <h4>Związane z WOŚP</h4>
+                <h4>Przydatne linki</h4>
                 <a href="http://www.wosp.org.pl/">WOŚP</a></br>
                 <a href="http://owsiaknet.pl/channel/blog">VideoBlog Jurka Owsiaka</a></br>
                 <a href="http://siemashop.pl/">SiemaShop</a></br>
@@ -208,6 +207,28 @@
     <script src="scripts/jquery-1.10.2.min.js"></script>
     <script src="scripts/superfish.js"></script>
     <script src="scripts/home.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var contactForm = $('#signup');
+			$('<input name="secret43" type="hidden" value="contact">').appendTo(contactForm);
+
+			$('#signup input[type=submit]').click( function(e) {
+				e.preventDefault();
+				$.post( 'mailSender.php', $('#signup').serialize(), function(data) {
+					 alert(data.reason);
+					 if (data.status == 'ok') {
+						$(':input','#signup')
+							.not(':button, :submit, :reset, :hidden')
+							.val('')
+							.removeAttr('checked')
+							.removeAttr('selected'); 
+					 }
+				   },
+				   'json' // I expect a JSON response
+				);
+			});
+		});
+	</script>
 
     </body>
     </html>
