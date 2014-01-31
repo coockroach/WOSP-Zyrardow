@@ -24,11 +24,11 @@ $topic       = $_POST['topic'];
 $body        = $_POST['body'];
 $recipientId = $_POST['secret43'];
 
-$recipient = '';
+$recipient = 'sztab.zyrardow@op.pl';
 
 $recipients = array(
-    'contact'    => '',
-    'licitation' => '',
+    'contact'    => 'sztab.zyrardow@op.pl',
+    'licitation' => 'licytacje.sztab.zyrardow@op.pl',
 );
 
 if (isset($recipients[$recipientId])) {
