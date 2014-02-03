@@ -12,7 +12,7 @@ $(document).ready(function(){
     };
     function dynamicFaq(){
         $('.hide').hide();
-        $('h2').bind('click', function(){
+        $('img').bind('click', function(){
             $(this).toggleClass('open');
             $(this).next().slideToggle();
         });

@@ -20,7 +20,7 @@ body {
 
 /*facebook i allegro*/
 .icons {
-    width:                      600px;
+    width:                      610px;
     margin:                     0px 0px auto auto;
     padding-left:               440px;
     padding-top:                10px;
@@ -959,7 +959,15 @@ article p a:hover {
     text-align:                 left;
 }
 
-#galeria_2013 {
+.galeria_front {
+    float:                      left;
+}
+
+figcaption {
+    text-align:                 center;
+}
+
+.galeria_2013 {
     text-align:                 center;
 }
 
