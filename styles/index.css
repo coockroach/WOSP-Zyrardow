@@ -6,6 +6,7 @@ body {
     margin:                     0 auto;
     padding:                    0;
     background:                 #ffffff;
+    background:           url('photos/arches.jpg') repeat;
     width:                      980px;
     text-align:                 center;
     background-color:           whitesmoke;
@@ -412,7 +413,7 @@ ol li {
     height:                     200px;
     border:                     1px solid black;
     box-shadow:                 1px 1px 1px;
-    background-color:           white;
+    background-color:           transparent;
     display:                    inline-block;
     overflow:                   hidden;
 }
